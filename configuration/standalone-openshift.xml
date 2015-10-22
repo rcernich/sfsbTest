@@ -110,6 +110,12 @@
             <logger category="jacorb.config">
                 <level name="ERROR"/>
             </logger>
+            <logger category="org.jgroups">
+                <level name="DEBUG"/>
+            </logger>
+            <logger category="org.openshift">
+                <level name="DEBUG"/>
+            </logger>
             <root-logger>
                 <level name="INFO"/>
                 <handlers>
