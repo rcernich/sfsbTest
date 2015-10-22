@@ -270,7 +270,6 @@
             <stack name="udp">
                 <transport type="UDP" socket-binding="jgroups-udp"/>
                 <protocol type="openshift.KUBE_PING"/>
-                <protocol type="openshift.PING34"/>
                 <protocol type="MERGE3"/>
                 <protocol type="FD_SOCK" socket-binding="jgroups-udp-fd"/>
                 <protocol type="FD"/>
@@ -287,7 +286,6 @@
             <stack name="tcp">
                 <transport type="TCP" socket-binding="jgroups-tcp"/>
                 <protocol type="openshift.KUBE_PING"/>
-                <protocol type="openshift.PING34"/>
                 <protocol type="MERGE2"/>
                 <protocol type="FD_SOCK" socket-binding="jgroups-tcp-fd"/>
                 <protocol type="FD"/>
